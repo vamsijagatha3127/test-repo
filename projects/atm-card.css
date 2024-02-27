@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.main-background{
+    height:100vh;
+    background-color:rgb(161, 151, 151);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+.hero-background .front{
+    height:250px;
+    width:425px;
+    background-color:rgb(28, 169, 108);
+    border-radius:8px;
+    
+    
+}
+
+.image-container-1{
+    margin:15px;
+    text-align: end;
+    
+}
+
+.image-container-1 .img-1{
+    width:45px;
+    mix-blend-mode:color-burn;
+    
+    
+}
+
+.image-container-2{
+   display: flex;
+   align-items: center;
+   
+}
+
+.image-container-2 .img-2{
+    height:35px;
+    background-image: url("");
+    margin:15px 20px 15px 30px;
+    
+}
+
+
+.fa-wifi{
+    transform: rotate(90deg);
+    font-size:27px;
+    color:white;
+}
+
+.Heading-container{
+    color:white;
+    font-size:16px;
+    margin:45px 20px 15px 30px;
+}
+.name-container{
+    display: flex;
+    justify-content: space-between;
+}
+.name-container .img-3{
+    height:40px;
+    width:100px;
+    margin:10px;
+    position: relative;
+    top:2rem;
+}
+
+
+.hero-background  {
+    height:250px;
+    width:425px;
+    background-color:rgb(28, 169, 108);
+    border-radius:8px;
+    position:relative;
+    top:auto
+    
+}
+
+.back-b{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:5px;
+}
+
+p{
+    font-size:8px;
+    color:white;
+}
+
+.black-line{
+    background-color:black;
+    height:40px;
+    position: relative;
+    top:-10px;
+    
+}
+
+.backg{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.para-element{
+    margin-right:10px;
+    position: relative;
+    top:-10px;
+}
+.number{
+    letter-spacing: 7px;
+    color:white;
+    margin:0px 0px 0px 10px;
+    font-size:20px;
+}
+.number-and-sign-container{
+    display: flex;
+   
+
+}
+.sign{
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+.grey{
+    height:35px;
+    width:180px;
+    background-color:antiquewhite
+}
+
+.date-container{
+    
+    flex-direction: row;
+  align-items: center;
+  
+}
+
+.expiry{
+    font-size:7px;
+    letter-spacing: 0px;
+    
+}
+
+.expiry{
+    display: inline;
+    
+}
+
+h6{
+    display: inline;
+   
+}
+.seperate{
+    display: flex;
+}
+
+
+.img-4{
+    height:40px;
+    width:120px;
+    position: relative;
+    top:-2rem;
+    left:-1rem;
+}
+.bank{
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+span{
+    font-size:12px;
+    letter-spacing: 2px;
+    margin-left:10px;
+}
+
+.inside{
+    line-height:0px;
+}
+
+
+.img-5{
+    height:85px;
+    
+    position: relative;
+    left:-1rem;
+}

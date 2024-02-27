@@ -1,0 +1,268 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-background-1{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.782), rgba(13, 12, 13, 0.596)),url("https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height:95vh;
+    background-size:cover;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1.5rem;
+}
+
+.brand-logo{
+    height:40px;
+    margin-right:45rem;
+}
+
+
+.button-container{
+    display: flex;
+    align-items: center;
+}
+.button1{
+    background-color:rgba(76, 74, 74, 0.185);
+    width:120px;
+    height:32px;
+    border: 0.1px solid grey;
+    border-radius:4px;
+    color:white;
+    font-size:17px; 
+    margin-right:1rem;
+    margin-left:10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2{
+    width:80px;
+    height:32px;
+    background-color:red;
+    border:0px solid white;
+    border-radius:4px;
+    color:white;
+    font-size:17px;
+    margin-right:5rem;
+}
+
+.button2:hover{
+    cursor:pointer;
+    background-color:rgb(207, 0, 0);
+
+}
+
+.heading-container{
+    text-align:center;
+    margin-top: 11rem;
+}
+
+.heading-main-background{
+    color:white;
+    font-family:;
+    font-size:44px;
+    font-weight: 900;
+}
+
+.para1-main-background{
+    color:white;
+    
+    font-size:22px;
+    margin:1.7rem;
+}
+.para2-main-background{
+    color:white;
+    
+    font-size:18px;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.email-signup input{
+    background-color:rgba(27, 25, 25, 0.784);
+    color:white;
+    height:52px;
+    width:340px;
+    margin-top:1rem;
+    margin-right:0.5rem;
+    border-radius:3px;
+    font-size:17px;
+    border:1px solid gray;
+    padding-left:1rem;
+}
+
+::placeholder{
+    color:lightgray;
+}
+
+
+
+.button3{
+    height:55px;
+    width:200px;
+    background-color: red;
+    border:7px solid red;
+    border-radius:3px;
+    color:white;
+    font-size:25px;
+    margin-top: 1rem;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button3:hover{
+    cursor:pointer;
+    background-color:rgb(207, 0, 0);
+    border:7px solid rgb(207, 0, 0);
+
+}
+
+.line{
+    border-width:px;
+    background-color:rgba(0, 0, 0, 0.666);
+    height:8px;
+    border-width:0px;
+}
+
+.main-background-2{
+    background-color:black;
+    height:77vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.heading-main-background-2{
+    color:white;
+   
+    font-size:55px;
+}
+
+.para-main-background-2{
+    color:white;
+    margin:1rem;
+    font-size:22px;
+    
+}
+
+.image2{
+    height:27rem;
+}
+
+.image2{
+    height:27rem;
+}
+
+.main-background-questions{
+    background-color:black;
+    height:vh;
+}
+.heading-main-background-questions{
+    color:white;
+    font-size:55px;
+    text-align: center;
+    padding-top:5rem;
+}
+
+
+.containers{
+    background-color:rgba(67, 64, 64, 0.696);
+    padding:1.7rem;
+    margin:0.5rem 11rem 0.5rem 11rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.heading-containers{
+    color:white;
+    font-weight:400;
+
+}
+
+
+.para-main-background-questions{
+    color:white;
+    
+    font-size:18px;
+    text-align: center;
+    margin-top:3rem;
+}
+
+
+.forms1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0rem 0rem 5rem 0rem
+}
+
+.footer{
+    background-color:black;
+    height:55vh;
+    color:grey;
+}
+
+
+.line1{
+    display: flex;
+}
+.para-questions{
+    padding: 5rem 11rem 0rem 11rem;
+}
+
+.link{
+    color:grey;
+    font-size:14px;
+}
+
+.list1{
+    margin:1.2rem 11rem;
+    list-style-type: none;
+}
+.list2{
+    margin:1.2rem 11rem 1.2rem 0rem;
+    list-style-type: none;
+}
+
+
+.plus-symbol{
+    color:white;
+    cursor: pointer;
+}
+
+.button-footer{
+    background-color:rgba(76, 74, 74, 0.185);
+    width:120px;
+    height:32px;
+    border: 0.1px solid grey;
+    border-radius:4px;
+    color:white;
+    font-size:17px; 
+    margin:0.3rem 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-registration-container{
+    padding-bottom:4.6rem;
+}
+
+
+
+

@@ -1,0 +1,638 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.nav-bar-container{
+    display: flex;
+    align-items: center;
+}
+
+.flex-end-container{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.logo{
+    position: relative;
+    left:10rem;
+    height:60px;
+}
+
+.container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right:3rem;
+}
+
+.container-nav ul li{
+    list-style-type: none;
+}
+
+.link{
+    margin-top: 15px;
+
+}
+
+.imp-links{
+    text-decoration: none;
+    color:black;
+    font-weight:100;
+}
+.para-navs{
+    font-weight:600;
+}
+
+.btn-1{
+    background-color:#cf2e2e;
+    color:white;
+    font-family: "Open Sans", sans-serif;
+    font-size:13px;
+    font-weight:600;
+    border:0px solid transparent;
+    height:48px;
+    width:150px;
+    margin-right:11rem;
+}
+
+.icons{
+    position: relative;
+    top:-7px;
+    font-size:25px;
+    margin-right:-10px;
+    color:#cf2e2e;
+}
+
+.nav-bar-2{
+    background-color: #333;
+    
+}
+
+ul li {
+    list-style-type:none;
+}
+
+ul li .imp-links2{
+    margin: 0rem 1.3rem;
+    text-decoration: none;
+    color:white;
+    
+    
+}
+
+ul li .imp-links2:hover{
+    color:#cf2e2e;
+    transition: 0.3s;
+}
+
+.container-nav-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.imp-links2 {
+    color:#cf2e2e;
+    text-decoration: none;   
+    display: inline-block;
+    position: relative;
+    padding:15px 0px;
+  }
+
+.imp-links2:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 50%;
+    position: absolute;
+    background:#cf2e2e;
+    transition: width 0.6s ease 0s;
+  }
+
+.imp-links2:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  .hero-background{
+    position:relative;
+    top:-1rem;
+    background-image:url("https://insights.masterworks.com/wp-content/uploads/2022/03/sid-suratia-YJtiPGImg6Y-unsplash-1536x1024.jpg");
+    height:110vh;
+    width:100%;
+   
+}
+
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:14rem;
+    
+}
+
+.switch-interface-button{
+
+}
+
+.showcase-btn-container{
+    position: relative;
+    justify-content: center;
+    left:12rem;
+}
+
+.showcase-btn{
+    position: relative;
+    top:1rem;
+    text-transform: uppercase;
+    color:white;
+    font-weight:600;
+    font-size:11.5px;
+    width:61%;
+    padding:6px 0px;
+    cursor:crosshair;
+    /* From https://css.glass */
+    background: rgba(248, 228, 228, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    border: 1px solid rgba(251, 240, 240, 0.401);
+}
+
+.icons2{
+    position: relative;
+    top:0.1rem;
+    font-weight: 100;
+}
+
+
+
+.icons-3{
+    position: relative;
+    left:3rem;
+    top:3rem;
+    font-size:8px;
+    color:white;
+    padding:10px;
+    
+}
+
+.icons-3:hover{
+    color:white;
+    position:relative;
+    border-width:0px;
+}
+
+.icons-4{
+    position:relative;
+    left:3rem;
+    top:-1.5rem;
+    font-size:30px;
+}
+span{
+    background-color:white;
+    color:rgba(255,105,0,1);
+    border-radius:10px;
+    padding:4px 11px;
+
+}
+
+.hero-heading{
+    position: relative;
+    top:1rem;
+    color:white;
+    font-size:70px;
+    font-weight: 600;
+    margin:2rem 0rem;
+}
+
+.hero-para{
+    color:white;
+    font-size:18px;
+}
+
+.hero-button-container{
+    display: flex;
+}
+
+.btn-2{
+    background-color: #D93000;;
+    color:white;
+    font-family: "Open Sans", sans-serif;
+    font-size:13px;
+    font-weight:600;
+    border:0px solid transparent;
+    height:55px;
+    width:180px;
+    margin-right:1rem;
+}
+
+.btn-2:hover{
+    background-color:#333;
+    transition: 1s;
+}
+
+.btn-3{
+    
+    color:white;
+    font-family: "Open Sans", sans-serif;
+    font-size:13px;
+    font-weight:600;
+    height:55px;
+    width:180px;
+    background: rgba(248, 228, 228, 0.19);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(251, 240, 240, 0.401);
+}
+
+.btn-3:hover{
+    transition: 1s;
+    background-color: #D93000;
+}
+
+
+
+.two-containers-card{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:22rem;
+}
+
+.two-side-containers{
+    background-color: white;
+    margin:1rem;
+    display: flex;
+    align-items: center;
+    padding:1.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width:38%;
+    border-radius:5px;
+}
+
+.two-side-containers:hover{
+    transform: translate(0px, -10px);
+    transition: 0.5s;
+}
+
+.two-containers-matter{
+    position: relative;
+    top:0.5rem;
+}
+
+.two-container-heading{
+    font-size:19px;
+    font-weight:600;
+}
+
+.two-container-para{
+    font-size:17.5px;
+    font-weight:normal;
+    color:rgba(0, 0, 0, 0.453);
+    
+}
+.two-images{
+    margin-right:1rem;
+    height:85px;
+}
+
+
+
+
+/* second-background */
+
+
+
+
+
+.second-background{
+    background-color:white;
+    background-size:cover;
+    height:120vh;
+    
+}
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:7rem;
+}
+
+
+.sec-container1{
+    position: relative;
+    right:3rem;
+}
+
+.sec-container2{
+    position: relative;
+    top:-1rem;
+}
+
+.second-head-button{
+    
+    background:rgba(243, 156, 178, 0.232);
+    color:#cf2e2e;
+    border:1px solid #cf2e2e;
+    border-radius:20px;
+    font-weight:700;
+    font-size:10px;
+    width:250px;
+    height:25px;
+    margin:1rem 0rem;
+}
+
+.sec-container-heading{
+    font-size:30px;
+    font-weight:600;
+}
+
+.sec-container-para{
+    font-weight:normal;
+    font-size:17.5px;
+    margin:2rem 0rem;
+    color:rgba(0, 0, 0, 0.453);
+}
+
+
+
+
+
+/* thellord-background-section */
+
+
+
+
+
+
+
+
+.thellord-background{
+    background-color:#32373c;
+    background-size: cover;
+    height:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thellord-image{
+    height:525px;
+    border-radius:5px;
+}
+
+.thellord-container1{
+    margin-right:4rem;
+}
+
+.thellord-head-button{
+    border-radius:20px;
+    font-size:12px;
+    color:#cf2e2e;
+    border:1px solid #cf2e2e;
+    background-color:transparent;
+    height:30px;
+    width:180px;
+    font-weight:600;
+    margin-bottom:0.5rem;
+}
+
+.thellord-button-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.thellord-heading{
+    color:white;
+    font-size:37px;
+    font-weight:700;
+    margin-bottom:1.5rem;
+}
+
+
+
+
+.btn-4{
+    height:50px;
+    width:500px;
+    color:white;
+    font-weight:600;
+    text-align: left;
+    padding:0rem 1rem;
+    margin:0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background: rgba(248, 228, 228, 0.112);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(251, 240, 240, 0.401);
+    border-radius:2px;
+}
+
+.icons-5{
+    text-align: right;
+}
+
+
+
+
+/* forth-background-section */
+
+
+.forth-background{
+    background-color: white;
+    height:100vh;
+    background-size: cover;
+}
+
+.forth-main-heading-container{
+    text-align: center;
+}
+
+.forth-head-button{
+    background:rgba(243, 156, 178, 0.232);
+    color:#cf2e2e;
+    border:1px solid #cf2e2e;
+    border-radius:20px;
+    font-weight:700;
+    font-size:10px;
+    width:130px;
+    height:25px;
+    margin:2rem 0rem 0rem 0rem;
+}
+
+.heading-forth{
+    font-size:30px;
+    font-weight:700;
+    margin-top:1rem;
+
+}
+
+.para-forth{
+    font-size:17.2px;
+    font-weight:100;
+    margin-top:1.5rem;
+}
+
+
+.forth-hover-containers{
+    display: flex;
+    align-items: center;
+    
+}
+
+.forth-inner-container{
+    border: 0.1px solid rgba(0, 0, 0, 0.127);
+    height:300px;
+    text-align:center;
+    padding:3rem;
+    width:35%;
+}
+
+
+.forth-inner-container:hover{
+    box-shadow: rgba(233, 8, 8, 0.778) 0px 5px 17px;
+    transition:ease-out 0.5s;
+}
+.heading-inner-container{
+    font-weight:700;
+    font-size:20px;
+}
+
+.para-inner-container{
+    font-weight:100;
+    font-size:16.5px;
+    color:rgba(0, 0, 0, 0.453);
+}
+
+.forth-image{
+    height:65px;
+    margin-bottom:1rem;
+}
+
+
+/* fith-background */
+
+
+.fifth-background{
+    height:100vh;
+    position: relative;
+    top:3.4rem;
+}
+
+
+.fifth-inner-container{
+    height:100vh;
+    width:100%;
+    color:white;
+    background-image: url("https://img.freepik.com/free-photo/businessman-working-laptop-cafe-seen-through-glass_23-2148176150.jpg?w=1060&t=st=1707631941~exp=1707632541~hmac=fa355b6e42ff65d0af24c1d5bc447129580782629d815190b5b564dc6eb0345e");
+    height:100vh;
+    background-size:cover;
+    
+    display: flex;
+    justify-content:center;
+    
+}
+
+.fifth-matter-container{
+    border-right:1px solid white;
+    margin:3.6rem 2rem 3.6rem 1rem;
+    display: flex;
+    height:85%;
+    padding-right:6rem;
+    flex-direction:column;
+    justify-content:end;
+    position: relative;
+    left:4rem;
+}
+
+.fifth-button-container{
+    background-color:transparent;
+    height:48px;
+    width:48px;
+    border:1px solid white;
+    border-radius:3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fifth-number{
+    font-size:24px;
+}
+
+.fifth-number:hover {
+    color:orange;
+}
+
+.fifth-heading{
+    font-size: 28.3px;
+    font-weight:600;
+    margin:1rem 0rem 2rem;
+}
+
+.fifth-para{
+    font-size:16px;
+    color:rgba(255, 255, 255, 0.885);
+    display: none;
+    
+}
+
+
+/* seventh-background-section */
+
+.seventh-background{
+    background-color: black;
+    background-size:cover;
+    height:40vh;
+}
+
+
+/* eigth-background-section */
+
+.eigth-background{
+    background-color: white;
+    background-size:cover;
+    height:100vh;
+}
+.eigth-heading-container{
+    text-align: center;
+}
+.eigth-head-button{
+    background:rgba(243, 156, 178, 0.232);
+    color:#cf2e2e;
+    border:1px solid #cf2e2e;
+    border-radius:20px;
+    font-weight:700;
+    font-size:10px;
+    width:75px;
+    height:25px;
+    margin:7rem 0rem 0rem 0rem;
+}
+
+.eigth-heading{
+
+}
+
+.eigth-para{
+    
+}
